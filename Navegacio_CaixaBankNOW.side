@@ -1,0 +1,400 @@
+{
+  "id": "0121ede9-81a5-4db6-a598-5345fdb9c0f5",
+  "version": "2.0",
+  "name": "NOW1",
+  "url": "https://loc4.caixabank.es",
+  "tests": [{
+    "id": "33035a44-2b2a-45d8-9858-08ef8bbc15ec",
+    "name": "Navegacio_Basica",
+    "commands": [{
+      "id": "5ae32c3a-f175-4a46-976f-77d0b3422fb5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "152444ad-95a3-4a32-915a-ebe4d4b91d40",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x733",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64731ee1-6039-4926-8847-20d6f5bca981",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Català",
+      "targets": [
+        ["linkText=Català", "linkText"],
+        ["css=.col:nth-child(1) .col:nth-child(3) > .bold", "css:finder"],
+        ["xpath=//a[contains(text(),'Català')]", "xpath:link"],
+        ["xpath=//a[contains(@href, \"javascript:envia('01','0','')\")]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Català')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c804b41-8353-4721-8b74-286e3a4bac22",
+      "comment": "",
+      "command": "click",
+      "target": "id=linkDemo",
+      "targets": [
+        ["id=linkDemo", "id"],
+        ["linkText=Demostració", "linkText"],
+        ["css=#linkDemo", "css:finder"],
+        ["xpath=//a[contains(text(),'Demostració')]", "xpath:link"],
+        ["xpath=//a[@id='linkDemo']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, \"JavaScript:document.forms['LGN_DEMO'].submit();\")]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demostració')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00caebac-03a4-4eb1-ae51-98647a5b0d99",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9463fdb-3428-4e43-8ab4-a8a54baa72ec",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "c785c061-8c7c-42f9-854c-298cc89dea14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Acceptar i continuar",
+      "targets": [
+        ["linkText=Acceptar i continuar", "linkText"],
+        ["css=div:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Acceptar i continuar')]", "xpath:link"],
+        ["xpath=//div[@id='contenidoConfirmacion']/div/div/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:top.ocultarAvisoDatosDemoLightbox();')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Acceptar i continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b96c80c-df6b-4b7d-9ac3-986c6d5e4e51",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a6dec1b-56cf-42b0-85c1-e0def5ae2c76",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "19c5a483-3ce5-4b9c-879f-ba1977fcf790",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Comptes",
+      "targets": [
+        ["linkText=Comptes", "linkText"],
+        ["css=#pestanya1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Comptes')]", "xpath:link"],
+        ["xpath=//li[@id='pestanya1']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GPeticiones;WebLogicSession=A8v6DCpuqweb3evizXiec9ZOBxIDXPvw90YZI5mBchaoWOdoDlil!508926939!1414489296!1571858164334?PN=GFI&PE=4&POSICION_PESTAYA=1&ENTORNO=P&USUCLO=00024483800&CONFIGURACION=0')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Comptes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a1d874d-fb7f-4294-8c64-a52a2edf6b02",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f89b108-2b61-43d2-9c87-4cd1dfb55d8e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5ff403b-8713-4134-8122-65e8b031c180",
+      "comment": "",
+      "command": "click",
+      "target": "css=#data_1 > .ltxt > a > span",
+      "targets": [
+        ["css=#data_1 > .ltxt > a > span", "css:finder"],
+        ["xpath=//tr[@id='data_1']/td/a/span", "xpath:idRelative"],
+        ["xpath=//td/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ES27 2100 0001 0872 0009 4600')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f8ac66-d983-4fd7-b960-e86d0d0215e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Compra de acciones",
+      "targets": [
+        ["linkText=Compra de acciones", "linkText"],
+        ["css=#TablaBean02_fila_0_ a", "css:finder"],
+        ["xpath=//a[contains(text(),'Compra de acciones')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"javascript:sendIFrame('PN=GCT&PE=103&NUMERO_MOVIMIENTO=2008001&FECHA_CONTABLE=2001001&INDICADOR_COMUNICADOS=S&CLOPWW=067&SUBCLO=00006&IMPORTE_COM=000000008500000&SIGNO_IMPORTE_COM=-&MONEDA_COM=102&SALDO_ACTUAL=000000000334083&SIGNO_SALDO_ACTUAL=+&FECHA_VALOR=02012001&INDICA_SALDO=SNNN&TIPO_BUSQUEDA=05&FECHA_COM=01012001&TIPO_COMUNICADO=00000&DESC_COMUNICADO=Compra+de+acciones&REMITENTE=&NUMERO_RECIBO=null&OPCION_OPERACION=LISTACLOP&CLICK_ORIG=FLX_GCT_100&CLAVE_ANTERIOR=4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040&CLAVE_CONTINUACION_SUM=4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040&CLAVE_CONTINUACION_DETALLE_3496=4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040&CLAVE_DETALLE_3496=D_3085_0&NUMERO_SUBMOVIMIENTO=0000001&TIPO_CUENTAS=VIG&APLICACION_ORIGEN=','','concepto0', 'TablaBean02', this) \"]", "xpath:attributes"],
+        ["xpath=//tr[@id='TablaBean02_fila_0_']/th/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#this')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Compra de acciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "452cc68a-c04e-4138-8660-3c9e37268f3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next span",
+      "targets": [
+        ["css=.next span", "css:finder"],
+        ["xpath=//div[@id='asincronoComunicado_1']/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Següents')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6402ea2-923e-45d9-838d-da761037537f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.blockOverlay",
+      "targets": [
+        ["css=.blockOverlay", "css:finder"],
+        ["xpath=//body[@id='cos']/div[5]", "xpath:idRelative"],
+        ["xpath=//body/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9373e7d-69c8-4e5a-92d9-fc49efa46f2c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f101b8a0-19c1-4294-9d4c-15b843637bb1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "f324c829-3aaf-4405-8738-d4e3fa97faf0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Transferències",
+      "targets": [
+        ["linkText=Transferències", "linkText"],
+        ["css=.PN_TRF_PE_0", "css:finder"],
+        ["xpath=//a[contains(text(),'Transferències')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"javascript:gestionaMenu('menu2');if(validaClick()){top.Inferior.Niveles.formsubmit('Cos','TRF','0','MNU_PAR_1.2')};\"]", "xpath:attributes"],
+        ["xpath=//li[@id='menu2']/a", "xpath:idRelative"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Transferències')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3ef1c38-1be3-47e4-a4a2-f53c37c774c5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "6afb9079-a847-49ef-a609-87b0029c3302",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9d799fa-3f82-497e-884d-df0c3f049082",
+      "comment": "",
+      "command": "click",
+      "target": "css=#enlaceTrans1 > span",
+      "targets": [
+        ["css=#enlaceTrans1 > span", "css:finder"],
+        ["xpath=//a[@id='enlaceTrans1']/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Repetir transferència')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce98765-80d1-4d6f-8bf2-3149af8ef54e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#fila0 #enlaceCuenta > span",
+      "targets": [
+        ["css=#fila0 #enlaceCuenta > span", "css:finder"],
+        ["xpath=//a[@id='enlaceCuenta']/span", "xpath:idRelative"],
+        ["xpath=//td/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ES48 0049 1500 0625 1010 7292')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "789b91bd-1d32-4075-a868-d6db3406ee3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon_volver > span",
+      "targets": [
+        ["css=.icon_volver > span", "css:finder"],
+        ["xpath=//div[@id='lo_contenido']/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tornar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19a0e078-026a-426d-8553-09d68bb01e8a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "3be3f74a-96c0-4f64-854c-8657164e7d9c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6261e8-cdee-4eea-aa22-41203613fa48",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Targetes",
+      "targets": [
+        ["linkText=Targetes", "linkText"],
+        ["css=#pestanya2 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Targetes')]", "xpath:link"],
+        ["xpath=//li[@id='pestanya2']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/GPeticiones;WebLogicSession=A8v6DCpuqweb3evizXiec9ZOBxIDXPvw90YZI5mBchaoWOdoDlil!508926939!1414489296!1571858164334?PN=GFI&PE=4&POSICION_PESTAYA=2&ENTORNO=P&USUCLO=00024483800&CONFIGURACION=0')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Targetes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14afa121-c89d-41d4-9d07-44ea20d0cece",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ac935b-2069-43ae-b578-8c28e64da538",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a5f6fe6-c9e4-4615-889b-89203907fa45",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tbResumen0 tr:nth-child(1) span",
+      "targets": [
+        ["css=#tbResumen0 tr:nth-child(1) span", "css:finder"],
+        ["xpath=//table[@id='tbResumen0']/tbody/tr/td/a/span", "xpath:idRelative"],
+        ["xpath=//td/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'97,53 €')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44fa7c78-01b0-4c2c-87f1-d688e6302c2e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//tr[@id='filaMovimientoCredito']/th/a/span)[2]",
+      "targets": [
+        ["xpath=(//tr[@id='filaMovimientoCredito']/th/a/span)[2]", "xpath:idRelative"],
+        ["xpath=//tr[3]/th/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'SUPERMERCAT CAPRABO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "185888e2-4f12-40e8-a5ae-654920f959ac",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ecfed31-779e-4af3-8fda-9eb4ae43b6bf",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b412f76-e38b-4a56-953a-863162c65f90",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce081efe-1457-4d8f-af13-cdec069b1d66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login > a",
+      "targets": [
+        ["css=.login > a", "css:finder"],
+        ["xpath=//div[@id='cabeceratop']/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:desConx();')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "420ec51e-a8ae-4a4c-88bf-170c7dff029b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["33035a44-2b2a-45d8-9858-08ef8bbc15ec"]
+  }],
+  "urls": ["https://loc4.caixabank.es/"],
+  "plugins": []
+}
